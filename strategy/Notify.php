@@ -1,6 +1,6 @@
 <?php 
 
-// 定义飞行类，所有新的飞行类都必须实现fly()方法
+// 定义通知类，所有新的通知类都必须实现send()方法
 interface Notify{
     public function send();
 }
