@@ -38,7 +38,7 @@ class Template{
 
     /**
      * 构造方法
-     * 辞职使用到了依赖注入和类型约束的概念
+     * 此处使用到了依赖注入和类型约束的概念
      */
     public function __construct(Notify $notify){
         $this->_strategy = $notify;
